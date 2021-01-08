@@ -6,9 +6,6 @@ metadata:
     app: NFA
 spec:
   triggers:
-    - type: Generic
-      generic:
-        secret: 9238a7966e062fe0
     - type: ConfigChange
   runPolicy: Serial
   source:

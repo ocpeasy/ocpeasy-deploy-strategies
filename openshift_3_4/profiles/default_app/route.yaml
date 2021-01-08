@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Route
+metadata:
+  name: '[[containerId]]'
+  labels:
+    app: '[[containerId]]'
+spec:
+  host: '[[containerRoute]]'
+  to:
+    kind: Service
+    name: '[[containerId]]'
+    weight: 100
+  port:
+    targetPort: 8080-tcp
+  wildcardPolicy: None

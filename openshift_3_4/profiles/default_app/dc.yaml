@@ -1,0 +1,33 @@
+kind: DeploymentConfig
+apiVersion: v1
+metadata:
+  name: '[[containerId]]'
+spec:
+  template:
+    metadata:
+      labels:
+        name: '[[containerId]]'
+        deploymentconfig: '[[containerId]]'
+    spec:
+      containers:
+        - name: '[[containerId]]'
+          image: '[[ocpProject]]/[[containerId]]'
+          ports:
+            - containerPort: 8080
+              protocol: TCP
+  replicas: '[[podReplicas]]'
+  selector:
+    name: '[[containerId]]'
+    deploymentconfig: '[[containerId]]'
+  triggers:
+    - type: ConfigChange
+    - type: ImageChange
+      imageChangeParams:
+        automatic: true
+        containerNames:
+          - '[[containerId]]'
+        from:
+          kind: ImageStreamTag
+          name: '[[containerId]]:latest'
+  strategy:
+    type: Rolling

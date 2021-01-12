@@ -1,0 +1,15 @@
+- template:
+  technology: python3.8
+  id: python-flask
+  version: 1
+  gitRepository: https://github.com/ocpeasy/ocpeasy-template-python-flask.git
+- template:
+  technology: nodejs12.x
+  id: typescript-fastify
+  version: 1
+  gitRepository: https://github.com/ocpeasy/ocpeasy-template-typescript-fastify.git
+- template:
+  technology: nextjs
+  id: typescript-nextjs
+  version: 1
+  gitRepository: https://github.com/ocpeasy/ocpeasy-template-typescript-nextjs.git

@@ -16,3 +16,9 @@
   version: master
   gitRepository: https://github.com/ocpeasy/ocpeasy-template-typescript-nextjs.git
   profile: defaultApp
+- template:
+  technology: R
+  id: rshiny-latest
+  version: 1
+  gitRepository: https://github.com/ocpeasy/ocpeasy-template-rshiny-latest.git
+  profile: defaultApp

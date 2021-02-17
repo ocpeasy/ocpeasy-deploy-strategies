@@ -5,5 +5,5 @@ metadata:
   labels:
     app: '[[containerId]]'
   annotations:
-    openshift.io/generated-by: OpenShiftWebConsole
+    openshift.io/generated-by: '[[generatedBy]]'
 spec: {}

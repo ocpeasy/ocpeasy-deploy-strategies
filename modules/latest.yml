@@ -1,6 +1,12 @@
-- module:
+- :
   kind: database
   technology: mysql
   id: mysql8.0
   version: 8.0
   profile: mysqlProfile
+- :
+  kind: database
+  technology: postgres
+  id: postgres11.3
+  version: 11.3
+  profile: postgresProfile

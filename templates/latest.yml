@@ -16,3 +16,9 @@
   version: 1
   gitRepository: https://github.com/ocpeasy/ocpeasy-template-rshiny-latest.git
   profile: defaultApp
+- template:
+  technology: Rust
+  id: rust-rocket
+  version: 1
+  gitRepository: https://github.com/ocpeasy/ocpeasy-template-rust-rocket.git
+  profile: defaultApp

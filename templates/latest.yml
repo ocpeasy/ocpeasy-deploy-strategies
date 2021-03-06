@@ -22,3 +22,9 @@
   version: 1
   gitRepository: https://github.com/ocpeasy/ocpeasy-template-rust-rocket.git
   profile: defaultApp
+- template:
+  technology: R
+  id: r-plumber
+  version: 1
+  gitRepository: https://github.com/ocpeasy/ocpeasy-template-r-plumber.git
+  profile: defaultApp

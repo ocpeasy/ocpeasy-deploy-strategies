@@ -5,7 +5,7 @@
   gitRepository: https://github.com/ocpeasy/ocpeasy-template-python-flask.git
   profile: defaultApp
 - template:
-  technology: nodejs12.x
+  technology: node15
   id: typescript-fastify
   version: master
   gitRepository: https://github.com/ocpeasy/ocpeasy-template-typescript-fastify.git

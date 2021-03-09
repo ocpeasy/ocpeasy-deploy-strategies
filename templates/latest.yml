@@ -1,12 +1,12 @@
 - template:
-  technology: python3.8
-  id: python-flask
+  technology: python
+  id: python38-flask
   version: master
   gitRepository: https://github.com/ocpeasy/ocpeasy-template-python-flask.git
   profile: defaultApp
 - template:
-  technology: node15
-  id: typescript-fastify
+  technology: nodeJS
+  id: node15-typescript-fastify
   version: master
   gitRepository: https://github.com/ocpeasy/ocpeasy-template-typescript-fastify.git
   profile: defaultApp

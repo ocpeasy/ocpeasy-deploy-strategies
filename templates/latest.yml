@@ -28,3 +28,10 @@
   version: 1
   gitRepository: https://github.com/ocpeasy/ocpeasy-template-r-plumber.git
   profile: defaultApp
+- template:
+  technology: nodeJS
+  id: node15-nx-example
+  version: 1
+  gitRepository: https://github.com/ocpeasy/ocpeasy-template-nx-monorepo
+  profile: defaultApp  
+  
